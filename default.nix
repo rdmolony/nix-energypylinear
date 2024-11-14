@@ -2,5 +2,5 @@ let
   pkgs = import <nixpkgs> { };
 in
 {
-  energypylinear = pkgs.python312Packages.callPackage ./energypylinear.nix { };
+  energypylinear = pkgs.python3Packages.callPackage ./energypylinear.nix { };
 }
